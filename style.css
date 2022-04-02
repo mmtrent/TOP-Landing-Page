@@ -55,13 +55,13 @@ h1 {
     margin: 0;
 }
 
-button {
+.upper-left button {
     color: #F9FAF8;
     background-color: #3882f6;
     font-size: 18px;
     border: none;
     border-radius: 10px;
-    padding: 10px 30px;
+    padding: 8px 30px;
 }
 
 img {
@@ -84,19 +84,71 @@ img {
     justify-content: space-around;
     width: 100%;
     padding: 0 80px;
+    padding-bottom: 60px;
 }
 
 .card {
-    height: 200px;
-    width: 200px;
+    
     justify-content: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    border: 2px solid blue;
+    gap: 12px;
+    
+}
+
+.roundbox {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #3882f6;
     border-radius: 10px;
 }
 
 h2 {
     font-size: 36px;
     font-weight: extra-bold;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 60px 80px;
+    font-size: 36px;
+    font-weight: 50;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup {
+    background-color: #F9FAF8;
+    color: #3882f6;
+    padding: 80px 100px;
+
+}
+.signup-box {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 40px 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-box button {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    font-size: 18px;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 8px 30px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 30px 0;
+    text-align: center;
 }
